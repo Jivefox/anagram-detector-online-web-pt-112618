@@ -6,6 +6,6 @@ class Anagram
   end
   
   def match(words)
-    words.select {|word| words.split(//).sort == words.split(//).sort
+    words.select {|word| words.split(//).sort == @word.sort
   end
 end
